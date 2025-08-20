@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PrimaryInputComponent } from '../../components/primary-input/primary-input.component';
+import { PrimaryInputComponent } from './primary-input.component';
 
 describe('PrimaryInputComponent', () => {
   let component: PrimaryInputComponent;
@@ -11,7 +11,7 @@ describe('PrimaryInputComponent', () => {
       imports: [PrimaryInputComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(PrimaryInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
